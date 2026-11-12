@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Project Tracker</title>
+<style>html,body{margin:0;height:100%;background:#fff}iframe{display:block;border:0;width:100%;height:100%}</style>
+</head>
+<body>
+<!-- Обёртка настоящего трекера: открывает страницу команды внутри себя, поэтому Google не показывает свою полосу сверху. Личный ключ (?k=...) передаётся дальше как есть. -->
+<iframe id="app" title="Project Tracker" allow="clipboard-write"></iframe>
+<script>document.getElementById("app").src = "https://script.google.com/macros/s/AKfycbxeGS0jAf6AAGaxMjHRxyDWOIZEvCD-CI2S5yytEc-VH8tD4DDooYcxBk3FVKAB0RVYEw/exec" + location.search;</script>
+</body>
+</html>
